@@ -7,8 +7,6 @@ Implemented an AI chess agent that uses the Minimax algorithm to optimize move s
  1. `evaluate( )` returns the value of a given board state based on factors like the number of each piece type for each player, position of king, whether the board is a checkmate, whether that position has been visited before. It also encourages the MinimaxAgent to go towards the other side of the board by adding value when pieces are in the center rows.
  2. `minimax( )` recursively performs the minimax algorithm and returns the best_move for the specified agent (minimizing or maximizing).
  3. `choose_action( )` runs the the minimax function from the current board state and returns the best move for the MinimaxAgent.
-### Changes to `Board.py`
-I added the function `get_config( )` to `Board.py` to enable copying of current board. 
 ### `evaluation.py`
 This is based on ChessMatch.py to follow the evaluation metrics required for the assignment.
 ## Running the program
